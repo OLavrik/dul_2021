@@ -7,7 +7,7 @@ import torch
 
 from torchvision import transforms
 from torchvision.datasets import MNIST, CIFAR10
-
+import torch.nn.functional as F
 from .utils import *
 
 
